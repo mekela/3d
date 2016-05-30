@@ -8,11 +8,19 @@ $(document).ready(function() {
 		}
 	});
 	
-	//bxslider
-	$('.bxslider').bxSlider({
-	  nextSelector: '#slider-next',
-	  prevSelector: '#slider-prev',
-	  nextText: 'Onward →',
-	  prevText: '← Go back'
+
+	//slick
+	$('.tabs_slider_inner').slick({
+		 dots: true
 	});
+
+	//tabs
+	 $('.tabs_nav li a').click(function(event){
+        event.preventDefault();
+        $('.tabs_nav li a').removeClass('active');
+        $(this).addClass('active');
+        $('.tabs_slider').hide();
+        $($(this).attr('href')).show();
+    });
+
 });
