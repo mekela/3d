@@ -50,7 +50,7 @@
 				</nav>
 				<div class="head_phone">
 					<strong>8 800 123-45-67</strong>
-					<a href="#">Заказать звонок</a>
+					<a href="#modal" class="fancybox">Заказать звонок</a>
 				</div>
 			</div>
 		</div>
@@ -676,6 +676,33 @@
 		Разработка сайта <a href="#">Grey Fox</a>
 	</div>
 </footer>
+<!--end-footer-->
+
+<!--modal-->
+<div class="modal" id="modal">
+	<div class="modal_inner">
+		<div class="modal_title">Заказать звонок</div>
+		<div class="modal_body">
+			<form action="/">
+				<input type="text" placeholder="Введите имя">
+				<input type="tel" placeholder="Введите телефон">
+				<input type="submit" value="ПЕРЕЗВОНИТЕ МНЕ" class="button fancybox" href="#modal2">
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="modal" id="modal2">
+	<div class="modal_inner">
+		<div class="modal_title">Заявка принята</div>
+		<div class="modal_body">
+			<h6>Спасибо за заявку!</h6>
+			<p>Благодарим Вас за интерес к нашему
+			продукту. Мы приняли заявку и свяжемся
+			с Вами в ближайшее время</p>
+		</div>
+	</div>
+</div>
 <!--end-footer-->
 </div>
 </body>

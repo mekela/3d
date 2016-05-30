@@ -1045,7 +1045,7 @@ textarea {
 
 .tabs_slider .slick-next, .tabs_slider .slick-prev {
   position: absolute;
-  bottom: -88px;
+  bottom: -101px;
   right: -30px;
   width: 11px;
   height: 20px;
@@ -1080,7 +1080,7 @@ textarea {
   text-align: center;
   position: absolute;
   right: -10px;
-  bottom: -85px;
+  bottom: -98px;
 }
 
 .tabs_slider .slick-dots button {
@@ -1148,3 +1148,40 @@ textarea {
 }
 
 /*----------end footer----------*/
+/*----------modal----------*/
+.modal {
+  background: #fff;
+  width: 370px;
+}
+
+.modal_title {
+  padding: 17px 21px;
+  background: #53a4da;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.modal_body {
+  padding: 21px;
+}
+
+.modal_body input {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.modal_body h6 {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  padding-bottom: 11px;
+}
+
+.modal_body p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #000;
+}
+
+/*----------end-modal----------*/
