@@ -11,7 +11,8 @@ $(document).ready(function() {
 
 	//slick
 	$('.tabs_slider_inner').slick({
-		 dots: true
+		 dots: true,
+		  fade: true,
 	});
 
 	//tabs
@@ -23,4 +24,12 @@ $(document).ready(function() {
         $($(this).attr('href')).show();
     });
 
+	 //scroll anchor
+		$('.head_right nav li a').on('click',function(){
+			$('html,body').animate({scrollTop:$($(this).attr('href')).offset().top-0},800);
+			return false;
+		});
+
 });
+
+
