@@ -41,7 +41,7 @@ overflow: hidden;
 
 }
 @mixin input_focus($input_focus){
-  box-shadow: 0 0 2px #99e6f9;
+  border-color: #53a4da !important;
 }
 //end buttons and inputs
 

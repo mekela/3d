@@ -259,7 +259,7 @@ input[type=text], input[type=email], input[type=tel], input[type=search], input[
 }
 
 input[type=text]:focus, input[type=email]:focus, input[type=tel]:focus, input[type=search]:focus, input[type=password]:focus, input[type=date]:focus, input[type=url]:focus, textarea:focus {
-  box-shadow: 0 0 2px #99e6f9;
+  border-color: #53a4da !important;
 }
 
 input[type=text].red_input, input[type=email].red_input, input[type=tel].red_input, input[type=search].red_input, input[type=password].red_input, input[type=date].red_input, input[type=url].red_input, textarea.red_input {
