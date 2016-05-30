@@ -576,6 +576,7 @@
 						}
 						h6{
 							font-size: 16px;
+							padding-bottom: 12px;
 						}
 					}
 				}
@@ -605,11 +606,11 @@
 			}
 		}
 		.slick-prev{
-			right: 100px;
+			right: 165px;
 			@include mirror_flip;
 		}
 		.slick-dots{
-			width: 105px;
+			width: 170px;
 			text-align: center;
 			position: absolute;
 			right: -10px;
